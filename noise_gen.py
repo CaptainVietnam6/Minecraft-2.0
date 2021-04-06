@@ -12,9 +12,7 @@ class NoiseParameters:
 class NoiseGen:
     def __init__(self, seed):
         self.seed = seed
-        self.noiseParams = NoiseParameters(
-            7, 50, 450, 0.3, 20
-        )
+        self.noiseParams = NoiseParameters(7, 50, 450, 0.3, 20)
 
     def _getNoise2(self, n):
         n += self.seed 
