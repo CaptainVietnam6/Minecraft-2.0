@@ -13,14 +13,14 @@ from pyglet.window import key, mouse
 
 from noise_gen import NoiseGen
 
-TICKS_PER_SEC = 340
+TICKS_PER_SEC = 256
 
 # Size of sectors used to ease block loading.
 SECTOR_SIZE = 16
 
 # Movement variables
-WALKING_SPEED = 5
-FLYING_SPEED = 15
+WALKING_SPEED = 6
+FLYING_SPEED = 20
 CROUCH_SPEED = 2
 SPRINT_SPEED = 7
 SPRINT_FOV = SPRINT_SPEED / 2
